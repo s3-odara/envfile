@@ -1,20 +1,13 @@
 # envfile
 
-`env/` には shell で `source` できる断片を置きます。
-
-例:
-
 ```sh
-export CONTEXT7_API_KEY='...'
+# env/aws_secret_access_key 
+export aws_secret_access_key ='...'
 ```
 
-`files/` にはホームディレクトリ相対で展開したいファイルを置きます。
-
-例:
 
 ```text
-files/.codex/auth.json
-files/.config/gh/hosts.yml
+files/.config/rclone/rclone.conf
 ```
 
-展開時は `files/.codex/auth.json` -> `~/.codex/auth.json` のようにコピーされます。
+`files/.config/rclone/rclone.conf` -> `~/.config/rclone/rclone.conf`
