@@ -1,0 +1,7 @@
+[user]
+	email = s1f102501518@iniad.org
+	name = HarutaObara
+[core]
+	sshCommand = ssh -i ~/.ssh/id_ed25519.pub -o IdentitiesOnly=yes
+[commit]
+	gpgsign = false
